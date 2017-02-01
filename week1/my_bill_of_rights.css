@@ -1,0 +1,261 @@
+body {
+	background-color: pink;
+}
+
+#div {
+	background-color: pink;
+	width: 1400px;
+	height: 50px;
+	text-align: center;
+}
+
+.title {
+	font-family: 'Amatic SC', cursive;
+	font-size: 85px;
+	color: rgb(169,169,169);
+}
+
+#subdiv {
+	background-color: pink;
+	width: 1400px;
+	height: 20px;
+	margin-top: 55px;
+  	margin-left: 0px;
+	text-align: center;
+}
+
+.subtitle {
+	font-family: 'Amatic SC', cursive;
+	font-size: 23px;
+	text-align: center;
+}
+
+#container {
+	background-color: pink;
+	border-style: solid;
+	border-color: white;
+	width: 1340px;
+	height: 55px;
+	margin-top: 50px;
+  	margin-left: 0px;
+  	text-align: center;
+}
+
+.line {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 16px;
+	text-align: center;
+}
+
+#container2 {
+	background-color: pink;
+	border-style: solid;
+	border-color: white;
+	width: 1340px;
+	height: 100px;
+	margin-top: 20px;
+  	margin-left: 0px;
+  	text-align: center;
+}
+
+.line2{
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 16px;
+	text-align: center;
+}
+
+#container3 {
+	background-color: pink;
+	border-style: solid;
+	border-color: white;	
+	width: 1340px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.line3{
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 16px;
+	text-align: center;
+}
+
+#container4 {
+	background-color: pink;
+	border-style: solid;
+	border-color: rgb(700,1000,140);
+	width: 1340px;
+	height: 50px;
+	line-height: 18px;
+	margin-top: 50px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.line4{
+	font-family: 'Bangers', cursive;
+	font-size: 16px;
+	text-align: center;
+}
+
+#const1 {
+	background-color: rgb(127,112,300);
+	width: 200px;
+	height: 200px;
+	line-height: 225px;
+	margin-top: 50px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.const1 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 150px;
+	text-align: center;
+}
+
+#const2 {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 230px;
+	margin-top: -200px;
+	margin-left: 350px;
+	text-align: center;
+}
+
+.const2 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 160px;
+	text-align: center;
+
+}
+
+#const3 {
+	background-color: rgb(127,112,300);
+	width: 200px;
+	height: 200px;
+	line-height: 225px;
+	margin-top: -200px;
+	margin-left: 600px;
+	text-align: center;
+}
+
+.const3 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 160px;
+	text-align: center;
+}
+
+#const4 {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 225px;
+	margin-top: -200px;
+	margin-left: 850px;
+	text-align: center;
+}
+
+.const4 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 160px;
+	text-align: center;
+}
+
+#const5 {
+	background-color: rgb(127,112,300);
+	width: 200px;
+	height: 200px;
+	line-height: 230px;
+	margin-top: -200px;
+	margin-left: 1100px;
+	text-align: center;
+}
+
+.const5 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 160px;
+	text-align: center;
+}
+
+#const6 {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 230px;
+	margin-top: 50px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.const6 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 160px;
+	text-align: center;
+}
+
+#const7 {
+	background-color: rgb(127,112,300);
+	width: 200px;
+	height: 200px;
+	line-height: 230px;
+	margin-top: -200px;
+	margin-left: 350px;
+	text-align: center;
+}
+
+.const7 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 160px;
+	text-align: center;
+}
+
+#const8 {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 217px;
+	margin-top: -200px;
+	margin-left: 600px;
+	text-align: center;
+}
+
+.const8 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 160px;
+	text-align: center;
+}
+
+#const9 {
+	background-color: rgb(127,112,300);
+	width: 200px;
+	height: 200px;
+	line-height: 225px;
+	margin-top: -200px;
+	margin-left: 850px;
+	text-align: center;
+}
+
+.const9 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 160px;
+	text-align: center;
+}
+
+#const10 {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 220px;
+	margin-top: -200px;
+	margin-left: 1100px;
+	text-align: center;
+}
+
+.const10 {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 130px;
+	text-align: center;
+}
