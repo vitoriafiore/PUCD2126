@@ -1,0 +1,10 @@
+body{
+	background-color: yellow;
+}
+
+h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
