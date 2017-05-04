@@ -8,10 +8,9 @@ body{
 
 h1{
 	font-family: 'Anton', sans-serif;
-	font-size: 100px;
+	font-size: 300px;
 	text-align: center;
 	color: white;
-	font-size: 100px;
 }
 
 a{ text-decoration: none; }
