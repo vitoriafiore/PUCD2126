@@ -1,0 +1,208 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html,body{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+h1{
+/* An Awesome Article T: */
+font-family: 'Abril Fatface', cursive;
+font-weight: 700;
+font-size: 48px;
+color: black;
+line-height: 1.2;
+text-align: center;
+}
+
+h2{
+/* A sweet article intr: */
+font-weight: 500;
+font-size: 40px;
+color: #F8E71C;
+line-height: 1.2;
+margin:20px 0 30px;
+}
+
+p{
+	/* Lorem Ipsum és un te: */
+font-weight: 300;
+font-size: 20px;
+color: #000000;
+line-height: 1.5;
+
+}
+
+p.niki-text {
+    text-align: left;
+
+}
+
+img.content.niki{
+	float: left;
+    margin: 10px 20px 10px 10px;
+}
+
+
+/*Global Lauout */
+
+.col-1 {width: 8.33%;}
+/*.col-2 {width: 16.66%;}
+*/.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 38.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.niki {width: 58%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+/*    float: left;*/
+    padding: 25px;
+    /*border: 1px dashed rgba(255,0,0,0.3);*/
+/*    display: inline-block; */
+}
+
+.grid-base{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%
+}
+.grid-base .col-1{
+    height: 3000px;
+}
+
+/* Article Layout*/
+
+.hero{
+	height: 40%;
+	background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+
+.hero h1{
+	position: relative;
+    left:50%;
+    top:50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+/*.meta{
+	margin-left: 8.33%;
+	margin-top: -49px;
+}*/
+
+.meta li{
+	  list-style: none;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.30);
+    letter-spacing: 1px;
+   /* border-bottom: 1px solid rgba(0,0,0,0.1);*/
+    padding: 4px 0;
+}
+
+.meta.col-2.col-t-3 {
+    text-align: center;
+    /* margin-top: 30px; */
+    background-position: center;
+    margin-top: -20px;
+}
+
+
+.content.col-6{
+	margin-left: 25%;
+}
+
+.content.col-8{
+	margin-left: 16.66%;
+}
+
+/*.content.col-10{
+	margin-left: 8.33%;
+}*/
+
+/*.content.content-bump.col-6{
+	margin-left: 0;
+}*/
+
+.credit {
+	font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.30);
+    margin-left: 12%;
+}
+
+
+@media screen and (max-width: 1560px){
+	/*mega screen*/
+	.col-m-5 {
+		width: 50%
+	}
+}
+
+@media screen and (max-width: 1000px){
+	/*tabloid size*/
+.col-t-1 {width: 8.33%;}
+/*.col-t-2 {width: 16.66%;}
+*/.col-t-3 {width: 25%;}
+.col-t-4 {width: 33.33%;}
+.col-t-5 {width: 41.66%;}
+.col-t-6 {width: 50%;}
+.col-t-7 {width: 58.33%;}
+.col-t-8 {width: 66.66%;}
+.col-t-9 {width: 75%;}
+.col-t-10 {width: 83.33%;}
+.col-t-11 {width: 91.66%;}
+.col-t-12 {width: 100%;}
+
+.meta{
+	margin-left: 0;
+}
+
+}
+
+@media screen and (max-width: 760px){
+	/*mobiel area*/
+	[class*="col-"] {
+		width: 100%;
+}
+
+	.content{
+		margin-left: 0!important;
+	}
+
+	.meta{
+		margin-top: 0;
+	}
+
+	.meta li{
+		width: 40%;
+		float: left;
+		margin-right: 10%;
+	}
+
+	h1{
+		font-size: 36px;
+	}
+
+	h2{
+		margin: 0 0 30px;
+		font-size: 24px;
+	}
+}

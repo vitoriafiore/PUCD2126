@@ -1,8 +1,49 @@
 body {
-	background-color: rgb(176,224,230);
+	background-color: rgb(50,250,230);
 }
 
 #head {
-color: pink;
+color: yellow;
 text-align: center;
+font-family: 'Barrio', cursive;
+font-size: 25px;
+}
+
+#text{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+
+p ~ span {
+  font-style: italic;
+}
+
+.what::after {
+  content: " What?"; 
+  color: yellow;
+}
+
+.really::after {
+  content: " Really?"; 
+  color: yellow;
+}
+
+.gotcha::after {
+	content: " Gotcha!";
+	color: yellow;
+}
+
+.oki::after{
+	content: " Oki!";
+	color: yellow;
+}
+
+.noprob::after{
+	content: " No prob.";
+	color: yellow;
+}
+
+.perfect::after{
+	content: " Perfect! Tnxx !";
+	color: yellow;
 }

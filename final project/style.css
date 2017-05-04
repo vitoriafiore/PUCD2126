@@ -1,0 +1,98 @@
+* {
+  font-family: 'Droid Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#ims {text-align: center; margin-bottom: 30px;}
+
+h1{
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+
+h1:hover {color:yellow; background-color: pink;}
+
+.nav {
+  display: flex;
+  background-color: #3c3c3c;
+  color: #fff;
+  list-style-type: none;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  background-color: darkgreen;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.full-bleed {
+  background: url('forest.jpeg');
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-position: bottom center;
+  background-size: 100%;
+}
+
+#imagewrap {float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+            
+}
+
+p {margin-right: 27%;
+}
+
+p::first-line {font-weight: 700; font-variant: small-caps; color: green;}
+
+section p {
+    background-color: yellow;
+}
+
+@media (max-width: 599px) {
+  .nav{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 20px;}  
+}
+
+@media (min-width: 600px) { 
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 20px;
+  padding-left: 20px;}
+
+}
+
+@media (min-width: 900px) { 
+
+/*flex-direction: column*/
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left; padding-left: 10px;
+    list-style-type: none;
+}  
+
+}
+/* for-phone-only */
+@media (max-width: 599px) {  }
+/* for-tablet-portrait-up */
+@media (min-width: 600px) {  }
+/* for-tablet-landscape-up */
+@media (min-width: 900px) {  }
