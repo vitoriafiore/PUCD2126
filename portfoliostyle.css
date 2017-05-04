@@ -8,10 +8,15 @@ body{
 
 h1{
 	font-family: 'Anton', sans-serif;
-	font-size: 50px;
+	font-size: 30px;
 	text-align: center;
 	color: white;
 	font-size: 100px;
+}
 
+a{ text-decoration: none; }
+
+.item{
+	color: white;
 }
 
