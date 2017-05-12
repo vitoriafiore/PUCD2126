@@ -1,0 +1,70 @@
+*{
+	font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+@font-face{
+	font-family: 'RegularDidot';
+	src: url(TheanoDidot-Regular.ttf);
+}
+
+@media (max-width: 599px) {
+  .mobile{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  }  
+}
+
+@media (max-width: 599px){
+	h1{
+		font-family: 'RegularDidot', sans-serif;
+		font-size: 60px;
+		margin-left: 70px;
+		margin-top: 0px;
+	}
+
+	img{
+		margin-top: -503px;
+	}
+
+	h2{
+		margin-left: 120px;
+		margin-top: -60px;
+		font-family: 'RegularDidot', sans-serif;
+	}
+
+	ul {
+  		 list-style-type: none;
+  		 margin-top: 95px;
+	}
+
+	a{
+		text-decoration: none;
+		font-family: 'RegularDidot', sans-serif;
+		color: black;
+		margin-left: 150px;
+		margin-top: 500px;
+		font-size: 22px;
+	}
+
+	.dr{
+		margin-top: 60px;
+		margin-left: 0px;
+	}
+
+	.co{
+		margin-left: 45px;
+	}
+
+	.ro{
+		margin-left: 90px;
+	}
+
+	.an{
+		margin-left: 45px;
+	}
+
+	.cl{
+
+	}
+}

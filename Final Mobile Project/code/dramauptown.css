@@ -1,0 +1,74 @@
+/**{
+	font-family: 'Frank Ruhl Libre', sans-serif;
+}*/
+
+@font-face{
+	font-family: 'RegularDidot';
+	src: url(TheanoDidot-Regular.ttf);
+}
+
+@media (max-width: 599px) {
+  .mobile{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  }  
+}
+
+@media (max-width: 599px){
+	h1{
+		font-family: 'RegularDidot', sans-serif;
+		font-size: 60px;
+		margin-left: 70px;
+		margin-top: -30px;
+	}
+
+	img{
+		margin-top: 0px;
+		vertical-align: text-top;
+	}
+
+	h2{
+		margin-left: 217px;
+		margin-top: -65px;
+		font-family: 'RegularDidot', sans-serif;
+	}
+
+	a{
+		text-decoration: none;
+		font-family: 'RegularDidot', sans-serif;
+		color: black;
+	}
+
+	.home{
+		margin-left: 350px;
+	}
+
+	.image{
+		margin-left: 15px;
+	}
+
+	.scentofawomanpreview{
+		margin-left: 135px;
+		width: 200px;
+    	border: 1px solid black;
+    	padding: 14px;
+    	margin-top: -150px;
+	}
+
+	.maidinmanhattanpreview{
+		margin-left: 135px;
+		width: 200px;
+    	border: 1px solid black;
+    	padding: 14px;
+    	margin-top: -150px;
+	}
+
+	.alfiepreview{
+		margin-left: 135px;
+		width: 200px;
+    	border: 1px solid black;
+    	padding: 14px;
+    	margin-top: -150px;
+	}
+}
